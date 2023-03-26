@@ -1,13 +1,83 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: linear-gradient(hsl(190, 91%, 13%), hsl(190, 94%, 03%));
+  display:block
+}
+header{
+  color:aliceblue;
+  display:block;
+  text-align: center;
+  margin-top:20px;
+ font-family: Audiowide;
+
+}
+#quote-box{
+  height: auto;
+  width:500px;
+  margin:auto;
+  margin-top:100px;
+  border-radius: 15px;
+  background:linear-gradient( hsl(0, 0%, 0%),hsla(253, 83%, 18%, 0.454));
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ i.bi-chat-square-quote{
+  display: inline-block;
+  font-size: 60px;
+ }
+
+i.first{
+  font-size: 3em;
+  color:whitesmoke;
+}
+.talk{
+  font-size:20px;
+  font-family: Epilogue;
+  text-align: center;
+  
+  color:azure;
+  height:auto;
+  width:450px;
+  position: relative;
+  left:20px;
+  
+}
+#author{
+  font-size: 15px;
+  color:azure;
+  max-height: 50px;
+}
+.auth{
+  position: relative;
+  max-width:150px;
+  left:280px;
+  bottom:30px;
+  font-family: Josefin Slab;
+  font-size: 18px;
+}
+i.byme{
+  font-size: 30px;
+  color: white;
+  position: relative;
+  left:220px
+}
+
+#tweet-quote{
+  position: relative;
+  width: 80px;
+  left: 20px;
+  top: 20px;
+}
+i.bi-twitter{
+  color:white;
+  font-size:25px;
+}
+#new-quote{
+  position: relative;
+  bottom: 20px;
+  width: 120px;
+  left:350px;
 }
