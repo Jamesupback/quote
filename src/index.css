@@ -81,3 +81,55 @@ i.bi-twitter{
   width: 120px;
   left:350px;
 }
+@media(max-width:1000px){
+  header{
+    margin-top: 200px;
+  }
+  i.bi-chat-square-quote{
+    font-size: 150px;
+   }
+  .titles{
+    font-size: 60px;
+  }
+  .talk{
+    font-size: 50px;
+    width:750px
+  }
+  #quote-box{
+    width:800px;
+  }
+  i.byme{
+    left:400px;
+    font-size: 50px;
+  }
+.auth{
+  left:500px;
+  font-size: 35px;
+  max-width: 300px;
+}
+#new-quote{
+left:500px;
+bottom: 40px;
+}
+#tweet-quote{
+  left:80px;
+  top: 40px;
+}
+#newquo{
+  width:200px;
+  height:80px;
+}
+#twee{
+  width:200px;
+  height:80px
+}
+#sas{
+  font-size: 30px;
+}
+i.bi-twitter{
+  font-size:50px;
+}
+i.first{
+  font-size: 80px;
+}
+}
