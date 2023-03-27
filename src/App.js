@@ -41,10 +41,10 @@ function App() {
     <p class="auth">{oldauth}</p>
   </div>
     <div id="tweet-quote">
-      <button type="button"id="twee" class="btn btn-primary" onClick={goto} style={{background:oldcolor}} ><i class="bi bi-twitter"></i></button>
+      <button type="button"id="twee" class="btn btn-dark" onClick={goto} style={{background:oldcolor}} ><i class="bi bi-twitter"></i></button>
     </div>
     <div id="new-quote">
-    <button type="button" class="btn btn-primary" id="newquo" onClick={handle} style={{background:oldcolor}}><span id="sas">new quote</span></button>
+    <button type="button" class="btn btn-dark" id="newquo" onClick={handle} style={{background:oldcolor}}><span id="sas">new quote</span></button>
   </div>
   </div>
   );

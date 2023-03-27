@@ -37,13 +37,15 @@ i.first{
   font-size:20px;
   font-family: Epilogue;
   text-align: center;
-  
   color:azure;
   height:auto;
   width:450px;
   position: relative;
   left:20px;
   
+}
+#twee,#newquo{
+  box-shadow:5px 5px 5px black;
 }
 #author{
   font-size: 15px;
