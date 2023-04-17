@@ -7,7 +7,7 @@ body {
   display:block
 }
 header{
-  color:aliceblue;
+  color:linear-gradient(hsl(190, 91%, 13%), hsl(190, 94%, 03%));
   display:block;
   text-align: center;
   margin-top:20px;

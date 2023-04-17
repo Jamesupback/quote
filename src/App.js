@@ -40,9 +40,9 @@ function App() {
     <i class="bi bi-activity byme"></i>
     <p class="auth">{oldauth}</p>
   </div>
-    <div id="tweet-quote">
+    <a id="tweet-quote" href="https://twitter.com/intent/tweet">
       <button type="button"id="twee" class="btn btn-dark" onClick={goto} style={{background:oldcolor}} ><i class="bi bi-twitter"></i></button>
-    </div>
+    </a>
     <div id="new-quote">
     <button type="button" class="btn btn-dark" id="newquo" onClick={handle} style={{background:oldcolor}}><span id="sas">new quote</span></button>
   </div>
